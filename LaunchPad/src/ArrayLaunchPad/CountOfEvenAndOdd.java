@@ -4,9 +4,9 @@ package ArrayLaunchPad;
 public class CountOfEvenAndOdd {
 	
 	
-	int evenCounter = 0;
+	static int  evenCounter = 0;
 	
-	public Integer evenCounter(int _numberList[])
+	public static Integer evenCounter(int _numberList[])
 	{
 		for( int i : _numberList)
 		{
@@ -21,8 +21,7 @@ public class CountOfEvenAndOdd {
 		// TODO Auto-generated method stub
 		int numberList[] = {1,2,3,4,5,6,7};
 
-		CountOfEvenAndOdd ced = new CountOfEvenAndOdd();
-		int evenCount = ced.evenCounter(numberList);
+		int evenCount = evenCounter(numberList);
 		System.out.println("Even Count " + evenCount);
 		System.out.println("Odd Count " +  (numberList.length - evenCount));
 

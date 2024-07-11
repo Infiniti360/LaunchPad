@@ -6,7 +6,7 @@ public class TextCounter {
 
 	int evenCounter = 0;
 
-	public static void TextCounter(String _text) {
+	public static void _textCounter(String _text) {
 
 		int letterCounter = 0;
 		int spaceCounter = 0;
@@ -40,7 +40,7 @@ public class TextCounter {
 	public static void main(String[] args) {
 		String text = "Hello World! This is Chitti the Robo @ Memory 2 TB!";
 
-		TextCounter(text);
+		_textCounter(text);
 
 	}
 
